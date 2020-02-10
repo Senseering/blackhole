@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 
 
 app.listen(80, function () {
-    console.log('Example app listening on port 3000!');
+    console.log('Example app listening on port 80!');
 });
 
 var app2 = express();
@@ -18,5 +18,5 @@ app2.get('/', function (req, res) {
 
 
 app2.listen(443, function () {
-    console.log('Example app listening on port 3000!');
+    console.log('Example app listening on port 443!');
 });
